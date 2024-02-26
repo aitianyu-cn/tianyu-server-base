@@ -1,0 +1,29 @@
+{
+    "include": [
+        "packages/common",
+        "packages/handler",
+        "packages/service",
+        "packages/index.ts"
+    ],
+    "exclude": [],
+    "compilerOptions": {
+        "composite": true,
+        "target": "ESNext",
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "baseUrl": "./packages",
+        "outDir": "./build",
+        "paths": {}
+    }
+}

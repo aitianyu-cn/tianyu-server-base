@@ -1,0 +1,16 @@
+{
+    "csharp.unitTestDebuggingOptions": {
+    
+    },
+    "csharp.format.enable": true,
+    "editor.formatOnSave": true,
+
+    "editor.formatOnType": true,
+    "typescript.format.enable": true,
+    "prettier.configPath": ".prettierrc",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "json.format.enable": true
+}
